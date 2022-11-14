@@ -20,7 +20,7 @@ h2{
 }
 h4{
     font-size: 20px;
-    line-height: 612px;    
+    line-height: 12px;    
 }
 h6{
     font-weight: 700;
@@ -47,6 +47,10 @@ header{
     padding: 20px 80px;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 .logo{
     width: 50px;
@@ -56,12 +60,70 @@ header{
     width: 20px;
     height: 20px;
 }
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
 nav{
-    padding: 0 20px;
+    padding: 0, 20px;
+    
 }
 nav a{
+    position: relative;
+    padding: 0 20px;
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
     color:#1a1a1a;
+    transition: 1s;
+}
+nav a:hover,
+nav a.active{
+    color: #815b08;
+    
+}
+nav a.active::after,nav a:hover::after{
+    
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #815b08;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+/* Billboard */
+#billboard{
+    background-image:url(/Assets/BillBoard.jpg);
+    height:90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#billboard h4{
+    padding: 0 20px;
+}
+
+#billboard h1{
+    padding: 0 20px;
+    color: #815b08;
+}
+#billboard button{
+    background-image: url(/Assets/button.png);
+    background-color: transparent;
+    color: #f4e0b3;
+    border: 0;
+    padding: 14px 90px 14px 65px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
 }
