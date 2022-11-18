@@ -389,11 +389,13 @@ nav a.active::after,nav a:hover::after{
 
 
 #banner3 .banner-box h2{
+   
     color: white;
     font-weight: 900;
     font-size: 15px;
 }
 #banner3 .banner-box h3{
+   
     color: red;
     font-weight: 900;
     font-size: 15px;
@@ -453,4 +455,75 @@ nav a.active::after,nav a:hover::after{
     background-color:  #fff;
     color: #815b08;
     border: 3px solid #815b08;
+}
+
+
+
+/* Footer */
+.telegram{
+    padding: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+.telegram:hover{
+    opacity: .3;
+}
+.instagram{
+    padding: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+.instagram:hover{
+    opacity: .3;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 13px;
+    padding-bottom: 0 0 8px 0;
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+}
+footer a:hover{
+    color: #815b08;
+    font-weight:800;
+    outline: invert;
+    text-shadow: #ecd79d52 3px 3px 3px ;
+    
+}
+footer .follow{
+    margin-top:20px;
+    padding-right: 4px;
+}
+
+.footer-logo{
+    margin-bottom:30px ;
+    width: 50px;
+    height: 50px;
+}
+.column-payment{
+    width: 350px;
+    height: 200px;
+    margin: 10px 0 15px 0 ;
 }
