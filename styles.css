@@ -86,8 +86,9 @@ header{
     height: 50px;
 }
 .shopping-cart{
-    width: 20px;
-    height: 20px;
+    margin-bottom: 5px;
+    width: 30px;
+    height: 30px;
 }
 .navbar{
     display: flex;
@@ -123,8 +124,15 @@ nav a.active::after,nav a:hover::after{
     bottom: -4px;
     left: 20px;
 }
+#mobile{
+    display: none;
+    align-items: center;
+}
 
 
+#close{
+    display: none;
+}
 /* Billboard */
 #billboard{
     background-image:url(/Assets/BillBoard.jpg);
@@ -526,4 +534,223 @@ footer .follow{
     width: 350px;
     height: 200px;
     margin: 10px 0 15px 0 ;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Making Responsive for Tablet */
+@media (max-width:799px) {
+    .section-p1{
+        padding: 40px 40px;
+    }
+    #navbar-main{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width:300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(123, 152, 152, 0.482);
+        opacity: .983;
+        padding: 80px 0 0 10px;
+        transition: .4s;
+        
+    }
+    #navbar-main a{
+        margin-bottom: 25px;
+    }
+
+    #navbar-main.active{
+        right: 0px;
+
+    }
+    #menu-icon{
+        margin-left: 20px;
+        width: 40px;
+        height:40px;
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        width: 30px;
+        height:30px;
+        top: 20px;
+        left: 18px;
+    }
+    .menu-icon:hover{
+       opacity: .4;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #lg-cart {
+        display: none;
+    }
+    #billboard {
+        background-position: top 30% right 60%;        
+        height: 70vh;
+        padding: 0 80px;
+        
+    }
+    #features {
+        justify-content: center;
+       
+    }
+    #features .features-box {
+        margin: 15px 15px;
+      
+    }
+    #product1 .product-container {
+       
+        justify-content: center;
+    }
+    #product1 .pro {
+        margin: 15px ;
+        
+    }
+    #banner {
+        height: 20vh;
+    }
+    #small-banner .banner-box {
+        min-width: 30%;
+        height: 30vh;
+        width: 100%;
+    }
+    #banner3 {
+        padding: 0 40px;
+    }
+    #banner3 .banner-box {
+        min-width: 28%;
+    }
+    #newslatter .form {
+        display: flex;
+        width: 60%;
+    }
+       
+}
+/* Making Responsive fot Phone */
+@media (max-width:477px) {
+    .section-p1{
+        padding: 20px;
+    }
+    header{
+        padding: 10px 30px;
+    }
+    #billboard {
+       
+        background-position: 25%;
+        padding: 0 20px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    #features .features-box {
+        width: 155px;
+        box-shadow: 10px 10px 10px rgba(96, 79, 45, 0.17);
+        margin: 0 10px 20px 0;
+    }
+    #product1 .pro {
+        width: 100%;
+    }
+    #banner {
+        height: 40vh;
+    }
+    #small-banner .banner-box {
+        margin-top: 20px;
+    }
+    #banner3{
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    #banner3 .banner-box {
+        min-width: 100%;
+    }
+    #newslatter {padding: 40px;
+    }
+    #newslatter .form {
+        
+        width: 100%;
+    }
+    
 }
