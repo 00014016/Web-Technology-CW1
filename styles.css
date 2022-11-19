@@ -80,6 +80,7 @@ header{
     position: sticky;
     top: 0;
     left: 0;
+    /* margin: 0 1rem; */
 }
 .logo{
     width: 50px;
@@ -94,10 +95,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    padding: 0 20px;
 
 }
 nav{
-    padding: 0, 20px;
+    padding: 0 20px;
     
 }
 nav a{
@@ -167,13 +170,13 @@ nav a.active::after,nav a:hover::after{
 
 /* features */
 #features .features-box{
-    width: 180px;
+    width: 150px;
     text-align: center;
-    padding: 20px 10px;
+    padding: 10px 5px;
     box-shadow: 20px 20px 34px rgba(96, 79, 45, 0.331);
     border: 1px solid #E3E6F3;
     border-radius: 4px;
-    margin:  15px 0;
+    margin:  10px 0;
     transition: .3s ease;
 }
 #features .features-box:hover{
@@ -192,7 +195,7 @@ nav a.active::after,nav a:hover::after{
 }
 #features .features-box img{
     margin-bottom: 10px;
-    height: 140px;
+    height: 100px;
     width: 100%;
 }
 #features{
@@ -218,7 +221,7 @@ nav a.active::after,nav a:hover::after{
     min-width: 250px;
     padding: 10px 12px;
     border: 1px solid #b7a286;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px 0;
@@ -462,7 +465,7 @@ nav a.active::after,nav a:hover::after{
 #newslatter button:hover{
     background-color:  #fff;
     color: #815b08;
-    border: 3px solid #815b08;
+    border: 1px solid #815b08;
 }
 
 
@@ -515,8 +518,6 @@ footer a{
 }
 footer a:hover{
     color: #815b08;
-    font-weight:800;
-    outline: invert;
     text-shadow: #ecd79d52 3px 3px 3px ;
     
 }
@@ -543,6 +544,60 @@ footer .copyright{
 
 
 
+
+
+
+/* Shop page styles */
+#shop-bb{
+    background-image: url(/Assets/banner/b7.jpg);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#shop-bb h2,#shop-bb p{
+    color: white;
+}
+#pagination{
+    text-align: center;
+
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #815b08;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+
+
+    
+}
+
+
+
+/* Single product styles */
+#pro-details .s-pro-img{
+    width: 40%;
+    margin-right:50px;
+}
+.sm-img-gr{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-column{
+    flex-basis: 30%;
+    cursor: pointer;
+/* }
+#small-img{
+    width: 110px;
+    height: 110px;
+} */
 
 
 
@@ -719,10 +774,17 @@ footer .copyright{
         padding: 0 20px;
     }
     h2 {
+        padding:0 1rem;
         font-size: 32px;
     }
     h1{
         font-size: 38px;
+    }
+    p {
+        font-size: 16px;
+        color: #465b52;
+        margin: 15px 0 20px 0;
+        padding-left:20px ;
     }
     #features .features-box {
         width: 155px;
@@ -731,6 +793,8 @@ footer .copyright{
     }
     #product1 .pro {
         width: 100%;
+        padding:0 1rem;
+        margin: 20px;
     }
     #banner {
         height: 40vh;
