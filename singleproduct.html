@@ -32,13 +32,13 @@
             <img src="/Assets/products/14.png" width="100%" id="main-img" alt="">
             <div class="sm-img-gr">
                 <div class="small-img-column">
-                    <img src="/Assets/products/15.png"  width="100%" id="small-img" alt="">
+                    <img src="/Assets/products/14.png"  width="100%" class="small-img" alt="">
                 </div>   
                 <div class="small-img-column">
-                    <img src="/Assets/products/16.png"  width="100%" id="small-img" alt="">
+                    <img src="/Assets/products/16.png"  width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-column">
-                    <img src="/Assets/products/8.png"  width="100%" id="small-img" alt="">
+                    <img src="/Assets/products/8.png"  width="100%" class="small-img" alt="">
                 </div>
             
             </div>
@@ -46,7 +46,7 @@
 
         <div class="single-pro-details">
             <h6>Home/Coats</h6>
-            <h4>Warm stylized modern Coat</h4>
+            <h4>Modern Coat</h4>
             <h2>$18</h2>
             <select>
                 <option>Select size</option>
@@ -56,14 +56,95 @@
                 <option>Large</option>
             </select>
             <input type="number" value="1">
-            <button>Add to Cart</button>
+            <button class="normal">Add to Cart</button>
             <h4>Product Details</h4>
             <span>
                Made form great material. It is warm and can be worn in autm and winterseasons
-               has divverent opstions for its colors
-
+               has divverent opstions for its colors. leather keeps warm inide and doesn't allow cold to go inside.zipper closure and button type all we have. with any logo.
             </span>
         </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>New Collections</h2>
+        <p>Modern Up-to-Date outfits</p>
+        <div class="product-container">
+            <div class="pro">
+                <img src="/Assets/news/1.jpg" alt="">
+                <div class="des">
+                    <span>pants</span>
+                    <h5>New modern jeans</h5>
+                    <div class="star">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                    </div>
+                    <h4>$8</h4>
+                </div>
+                <div class="pro-cart">
+                    <a href="#"> <i href="#"><img  src="/Assets/shopping-cart.png" alt=""></i></a>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="/Assets/products/17.jpg" alt="">
+                <div class="des">
+                    <span>jacket</span>
+                    <h5>Syled jacked with hood.</h5>
+                    <div class="star">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                    </div>
+                    <h4>$8</h4>
+                </div>
+                <div class="pro-cart">
+                    <a href="#"> <i href="#"><img  src="/Assets/shopping-cart.png" alt=""></i></a>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="/Assets/products/1.jpg" alt="">
+                <div class="des">
+                    <span>hoodie</span>
+                    <h5>warm long sleeved Hoodie</h5>
+                    <div class="star">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                    </div>
+                    <h4>$8</h4>
+                </div>
+                <div class="pro-cart">
+                    <a href="#"> <i href="#"><img  src="/Assets/shopping-cart.png" alt=""></i></a>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="/Assets/products/11.jpg" alt="">
+                <div class="des">
+                    <span>T-Shirt</span>
+                    <h5>modern lined T-Shirt</h5>
+                    <div class="star">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                        <img src="/Assets/star.jpg" alt="">
+                    </div>
+                    <h4>$6</h4>
+                </div>
+                <div class="pro-cart">
+                    <a href="#"> <i href="#"><img  src="/Assets/shopping-cart.png" alt=""></i></a>
+                </div>
+            </div>
+           
+        </div>
+
+
     </section>
     
 
@@ -120,6 +201,23 @@
         </div>
     </footer>
 
+    <script>
+        const mainImg = document.getElementById("main-img");
+        const smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function(){
+            mainImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function(){
+            mainImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function(){
+            mainImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function(){
+            mainImg.src = smallImg[3].src;
+        }
+    </script>
 
 
     <script src="/script.js"></script>
