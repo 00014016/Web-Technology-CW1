@@ -958,10 +958,30 @@ footer .copyright{
     border: 1px solid #a47309;
 
 }
-#coupon button,#subtotal button{
-    background-color: #a47309;
-    color: #E3E6F3;
+#subtotal button{
+    background-color:  #a47309 ;
+    color:#E3E6F3;
     padding: 12px 20px;
+}
+
+#coupon button{
+    background-color: #a47309;
+    color: #E3E6F3 ;
+    padding: 12px 20px;
+
+}
+#subtotal button:hover{
+    background-color:  #E3E6F3;
+    color: #a47309;
+    padding: 12px 20px;
+    outline: 1px solid #a47309;
+}
+
+#coupon button:hover{
+    background-color:#E3E6F3 ;
+    color: #a47309 ;
+    padding: 12px 20px;
+    outline: 1px solid #a47309;
 
 }
 #subtotal{
@@ -980,6 +1000,12 @@ footer .copyright{
     border: 1px solid #E3E6F3;
     padding: 10px;
     font-size: 13px;
+}
+#subtotal {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #E3E6F3;
 }
 
 
