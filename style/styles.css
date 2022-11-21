@@ -47,7 +47,7 @@ button.normal{
     cursor: pointer;
     border: none;
     outline: none;
-    transition: 0.4s ease;
+    transition: 0.5s ease;
 
 }
 button.white{
@@ -142,7 +142,7 @@ nav a.active::after,nav a:hover::after{
 }
 /* Billboard */
 #billboard{
-    background-image:url(/Assets/BillBoard.jpg);
+    background-image:url(../Assets/BillBoard.jpg);
     height:90vh;
     width: 100%;
     background-size: cover;
@@ -162,7 +162,7 @@ nav a.active::after,nav a:hover::after{
     color: #815b08;
 }
 #billboard button{
-    background-image: url(/Assets/button.png);
+    background-image: url(../Assets/button.png);
     background-color: transparent;
     color: #f4e0b3;
     border: 0;
@@ -185,7 +185,7 @@ nav a.active::after,nav a:hover::after{
 }
 #features .features-box:hover{
     padding: 10px 5px;
-    border: 3px solid #E3E6F3;
+    border: 1px solid #E3E6F3;
     box-shadow: 10px 10px 54px rgba(96, 79, 45, 0.658);;
    
 }
@@ -193,6 +193,18 @@ nav a.active::after,nav a:hover::after{
     display: inline-block;
     padding: 9px 8px 6px 8px;
     line-height: 1;
+    border-radius: 4px;
+    color: #815b08;
+    background-color:#f4e0b3;
+    transition: .6s ease;
+}
+#features .features-box:hover h6{
+    display: inline-block;
+    padding: 12px 10px 8px 10px;
+    line-height: 1;
+    scale: 110%;
+    /* font-weight: 800;
+    font-size: 16px; */
     border-radius: 4px;
     color: #815b08;
     background-color:#f4e0b3;
@@ -302,7 +314,7 @@ nav a.active::after,nav a:hover::after{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(/Assets/banner/b1.jpg);
+    background-image: url(../Assets/banner/b1.jpg);
     width: 100%;
     height: 400px;
     background-size: cover;
@@ -331,7 +343,7 @@ nav a.active::after,nav a:hover::after{
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url(/Assets/banner/b3.jpg);
+    background-image: url(../Assets/banner/b3.jpg);
     width: 580px;
     height: 50vh;
     background-size: cover;
@@ -340,7 +352,7 @@ nav a.active::after,nav a:hover::after{
     padding: 30px;
 }
 #small-banner .banner-box2{
-    background-image: url(/Assets/banner/b2.jpg);
+    background-image: url(../Assets/banner/b2.jpg);
 
 
 }
@@ -370,6 +382,7 @@ nav a.active::after,nav a:hover::after{
 #small-banner .banner-box:hover button {
     background:#e3bc8a;
     border: 1px solid #e3bc8a;
+    scale: 120%;
 }
 #banner3{
     display: flex;
@@ -386,7 +399,7 @@ nav a.active::after,nav a:hover::after{
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url(/Assets/banner/b4.jpg);
+    background-image: url(../Assets/banner/b4.jpg);
     width: 30%;
     height: 30vh;
     background-size: cover;
@@ -396,10 +409,10 @@ nav a.active::after,nav a:hover::after{
 
 }
 #banner3 .banner-box2{
-    background-image: url(/Assets/banner/b5.jpg);
+    background-image: url(../Assets/banner/b5.jpg);
 }
 #banner3 .banner-box3{
-    background-image: url(/Assets/banner/b6.jpg);
+    background-image: url(../Assets/banner/b6.jpg);
 }
 
 
@@ -421,7 +434,7 @@ nav a.active::after,nav a:hover::after{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(/Assets/newsletter.jpg);
+    background-image: url(../Assets/newsletter.jpg);
     background-repeat: no-repeat;
     background-position: 20% 30%;
     background-color: #000;
@@ -553,7 +566,7 @@ footer .copyright{
 
 /* Shop page styles */
 #shop-bb{
-    background-image: url(/Assets/banner/b7.jpg);
+    background-image: url(../Assets/banner/b7.jpg);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -659,7 +672,7 @@ footer .copyright{
 
 /* Blog page syle */
 #shop-bb.blog-bb{
-    background-image: url(/Assets/banner/b8.jpg);
+    background-image: url(../Assets/banner/b8.jpg);
 }
 #blog{
     padding: 150px 150px 0 150px;
@@ -721,7 +734,7 @@ footer .copyright{
 
 /* About Page style */
 #shop-bb.about-bb{
-   background-image: url(/Assets/banner/b9.jpg);
+   background-image: url(../Assets/banner/b9.jpg);
 }
 
 #about-headline{
