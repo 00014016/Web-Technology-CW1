@@ -11,7 +11,7 @@
 <body>
     
     <header>
-        <a href="#"><img src="./Assets/logo.png" class="logo" alt=""></a>
+        <a href="index.html"><img src="./Assets/logo.png" class="logo" alt=""></a>
         <div class="navbar">
            <nav id="navbar-main">
                <a  href="index.html">Home</a>
@@ -30,14 +30,14 @@
     </header>
     
     <section id="shop-bb" class="contact-bb">
-        <h2>#let's chat</h2>
-        <p>You can send us a message if you have suggestions!</p>
+        <h2>#Checkout your items</h2>
+        <p>apply coupon and get 50% off!</p>
     </section>
 
-    <section id="cart" class="section-p1">
+    <section id="cart" class="section-p1 reveal">
         <table width="100%">
             <thead>
-                <tr>
+                <tr class="reveal">
                     <td>Remove</td>
                     <td>Image</td>
                     <td>Product</td>
@@ -47,7 +47,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr class="reveal">
                     <td><img class="remove" src="./Assets/close.png"></img></td>
                     <td><img src="./Assets/products/16.png" alt=""></td>
                     <td>Leather and fur, warm Coat</td>
@@ -55,7 +55,7 @@
                     <td><input type="number" value="1"></td>
                     <td>$18</td>
                 </tr>
-                <tr>
+                <tr class="reveal">
                     <td><img class="remove" src="./Assets/close.png"></img></td>
                     <td><img src="./Assets/products/15.png" alt=""></td>
                     <td>leather and cotton coat</td>
@@ -63,7 +63,7 @@
                     <td><input type="number" value="1"></td>
                     <td>$18</td>
                 </tr>
-                <tr>
+                <tr class="reveal">
                     <td><img class="remove" src="./Assets/close.png"></img></td>
                     <td><img src="./Assets/products/14.png" alt=""></td>
                     <td>Leather and thick warm Coat</td>
@@ -75,7 +75,7 @@
         </table>
     </section>
 
-    <section id="cart-add" class="section-p1">
+    <section id="cart-add" class="section-p1 reveal">
         <div id="coupon">
             <h3> Apply coupon</h3>
             <div>
@@ -83,18 +83,18 @@
                 <button class="normal">Submit</button>
             </div>
         </div>
-        <div id="subtotal">
+        <div id="subtotal" class="reveal">
          <h3>Cart Total</h3>
          <table>
-            <tr>
+            <tr class="reveal">
                 <td>Cart Subtotal</td>
                 <td>$54</td>
             </tr>
-            <tr>
+            <tr class="reveal">
                 <td>Shipping</td>
                 <td>Free</td>          
             </tr>
-            <tr>
+            <tr class="reveal">
                 <td><strong>Total</strong></td>
                 <td><strong>$54</strong></td>
             </tr>
@@ -102,6 +102,8 @@
          <button class="normal">Proceed to checkout</button>
         </div>
     </section>
+
+    <button class="scroll" > <a href="#">/\</a></button>
 
     <footer class="section-p1">
         <div class="column">
