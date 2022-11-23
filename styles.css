@@ -966,6 +966,9 @@ footer .copyright{
     white-space: nowrap;
     animation: header 1s ease;
  }
+ #cart{
+    overflow-x: auto;
+ }
  #cart table img{
     width: 70px;
  }
@@ -1321,6 +1324,18 @@ footer .copyright{
     border-radius: 20px;
     font-size: 12px; 
     }
+    /* cart page */
+    #cart-add{
+        display: flex;
+        flex-direction: column;
+     }
+     #coupon{
+        width: 100%;
+     }
+     #subtotal{
+        width: 100%;
+        padding: 20px;
+     }
 
 }
 /* Making Responsive fot Phone */
@@ -1472,6 +1487,21 @@ footer .copyright{
         width: 100%;
         height:400px;
     }
+
+    /* cart page */
+
+    #cart-add{
+        display: flex;
+        flex-direction: column;
+     }
+     #coupon{
+        width: 100%;
+     }
+     #subtotal{
+        width: 100%;
+        padding: 20px;
+     }
+
     
 }
 @media (max-width:1024px){
@@ -1494,6 +1524,18 @@ footer .copyright{
         margin-right: 40px;
         border-radius: 20px;
     }
+    /* cart */
+    #cart-add{
+        display: flex;
+        flex-direction: column;
+     }
+     #coupon{
+        width: 100%;
+     }
+     #subtotal{
+        width: 100%;
+        padding: 20px;
+     }
 
     
 

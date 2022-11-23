@@ -106,4 +106,3 @@ const validateInputs = () => {
     
 
 };
-window.alert("This website was created to fulfill Web Technology module's requirements and doesn't represent an actual company or service.")
