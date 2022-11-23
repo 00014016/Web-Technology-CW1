@@ -1,3 +1,4 @@
+// this lines for mobile navbar which work with responsive
 const bar = document.getElementById('menu-icon');
 const nav = document.getElementById('navbar-main')
 const close = document.getElementById('close')
@@ -14,7 +15,7 @@ if (close) {
 }
 
 
-// animation 
+// global animation
 
 function reveal() {
     var reveals = document.querySelectorAll(".reveal");
@@ -56,7 +57,6 @@ form.addEventListener('submit',e => {
     inputControl.classList.add('error');
     inputControl.classList.remove('success')
  }
-
  const setSuccess = element =>{
     const inputControl = element.parentElement;
     const errorDisplay = inputControl.querySelector('.error');
@@ -65,12 +65,12 @@ form.addEventListener('submit',e => {
     inputControl.classList.add('success');
     inputControl.classList.remove('error');
  };
-
+// this is for a email validation
  const isValidEmail = email => {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
 }
-
+// to get it work with border of the form
 const validateInputs = () => {
     const usernameValue = username.value.trim();
     const emailValue = email.value.trim();
@@ -106,3 +106,4 @@ const validateInputs = () => {
     
 
 };
+window.alert("This website was created to fulfill Web Technology module's requirements and doesn't represent an actual company or service.")
