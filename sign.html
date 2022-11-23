@@ -18,8 +18,8 @@
                <a href="shop.html">Shop</a>
                <a href="blog.html">Blog</a>
                <a href="about.html">About</a>
-               <a class="active" href="contact.html">Contact</a>
-               <a href="sign.html">Sign in</a>
+               <a href="contact.html">Contact</a>
+               <a class="active" href="sign.html">Sign in</a>
                <a href="cart.html"><img class="shopping-cart" src="./Assets/shopping-cart.png" alt=""></a>
                <a href="#" id="close"><img  id="close" src="./Assets/close.png" alt=""></a>
            </nav>
@@ -30,57 +30,38 @@
         </div>
     </header>
     
-    <section id="shop-bb" class="contact-bb">
-        <h2>#let's chat</h2>
-        <p>You can send us a message if you have suggestions!</p>
+    
+    <section id="shop-bb" class="sign-bb">
+        <h2>#Sign up</h2>
+        <p>Sign up and subscribe for news!</p>
     </section>
 
-    <section id="contact-details" class="section-p1 reveal">
-        <div class="details">
-            <span>GET IN TOUCH</span>
-            <h2>Visit one of our locations or send us a message</h2>
-            <h3>Head Office</h3>
-            <div>
-                <div class="container reveal">
-                    <img class="icon" src="./Assets/contact/map.gif" alt="">
-                    <p>Farkhad Bazaar, Tashkent 100123, Uzbekistan</p>
-                </div>
-                <div class="container reveal">
-                    <img class="icon" src="./Assets/contact/email.gif" alt="">
-                    <p>Our email: vipbranduz@gmail.com</p>
-                </div>
-                <div class="container reveal">
-                    <img class="icon" src="./Assets/contact/phone.gif" alt="">
-                    <p> Our phone number: +99 8 93 008 00 00</p>
-                </div>
-                <div class="container reveal">
-                    <img class="icon" src="./Assets/contact/clock.gif" alt="">
-                    <p>Working hours from 10:00 until 23:00 everyday
-
-                    </p>
-                </div>
+    <section class="form-container section-p1">
+        <form id="sign-form" class="reveal" action="/">
+            <h1>Registration</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text" required>
+                <div class="error"></div>
             </div>
-        </div>
-        <div class="map reveal">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924.0948034179279!2d69.18577116225048!3d41.28579084437307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae890cfb3ed511%3A0xd75de3b09c82d2ff!2sVip%20brand!5e0!3m2!1sen!2s!4v1669030900794!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        </div>
-    </section>
-
-    <section id="form-details" class="section-p1 reveal">
-        <form action="" method="get">
-            <span>LEAVE A MESSAGE</span>
-            <h2>we love to hear from you</h2>
-            <input type="text" placeholder="Your Name" required>
-            <input type="text" placeholder="E-mail" required>
-            <input type="text" placeholder="Subject">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Massage"></textarea>
-            <button type="submit" class="normal">Submit</button>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input name="email" id="email" type="email">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Password again</label>
+                <input id="password2" name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <button class="submit">Sign Up</button>
         </form>
-        <div class="developer reveal">
-            <img class='me'src="./Assets/me.jpg" alt="">
-            <p><span>00014016</span> Developer <br> Phone: 99 8 98 765 43 21 <br>devvipbrand@gmail.com</p>
-        </div>
+        
     </section>
 
     <section id="newslatter" class="section-p1 section-m1 reveal">
@@ -95,6 +76,7 @@
     </section>
 
     <button class="scroll" > <a href="#">/\</a></button>
+
 
     <footer class="section-p1">
         <div class="column">
