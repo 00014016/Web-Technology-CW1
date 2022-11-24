@@ -8,7 +8,7 @@ In this website I used a variety of layouts for each page and a range of element
 As it is a website for clothing shop , every product has its own product page and cart page to track the orders. Though, there is cart page and selecrted items in it as a table form it wont work as it requires more of a back-end related work. But to show my capabilities I added how it can be shown when back-end applied to this site.
 
 github link: https://github.com/00014016/Web-Technology-CW1.git
-Deployed version: vipbranduz.netlify.app
+Deployed version: [vipbranduz.netlify.app](https://vipbranduz.netlify.app/)
 
 
 
